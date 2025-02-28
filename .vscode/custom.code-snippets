@@ -2,9 +2,13 @@
   "Print to console": {
     "scope": "javascript,typescript",
     "prefix": "clog",
-    "body": [
-      "console.log($1);"
-    ],
+    "body": ["console.log($1);"],
     "description": "Log output to console"
+  },
+  "TS template": {
+    "scope": "javascript,typescript",
+    "prefix": "st",
+    "body": ["export {};"],
+    "description": "Simple template header for ts. For the use of not confusing variables between multiple files."
   }
 }
